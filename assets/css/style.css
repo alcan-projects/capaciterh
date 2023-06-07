@@ -6104,6 +6104,7 @@ ul>li>a:focus, ul>li>a:hover {
 	position: fixed;
 	bottom: 18%;
 	right: 2.7%;
+	z-index: 2;
 }
 .WhatsIcon img {
 	height: 45px;
