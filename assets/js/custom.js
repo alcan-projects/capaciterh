@@ -2,7 +2,7 @@
 
  	"use strict";
 	$(document).ready(function() {
-	 
+
 		//jQuery for page scrolling feature - requires jQuery Easing plugin
 		$('a.page-scroll').on('click', function(event) {
 			var $anchor = $(this);
@@ -30,23 +30,23 @@
                 element.siblings('li').find('ul').slideUp(300, "swing");
             }
         })
-		
-		//LightCase
-		
-			$('a[data-rel^=lightcase]').lightcase();
-		
 
-		//Js code for search box 
-		
+		//LightCase
+
+			$('a[data-rel^=lightcase]').lightcase();
+
+
+		//Js code for search box
+
 			$(".first_click").on("click", function(){
-				$(".menu-right-option").addClass("search_box");	 
+				$(".menu-right-option").addClass("search_box");
 			});
 			$(".second_click").on("click", function(){
-				$(".menu-right-option").removeClass("search_box"); 
-			});	
-			
-		
-		//countdown 
+				$(".menu-right-option").removeClass("search_box");
+			});
+
+
+		//countdown
         // $('.counter').counterUp({
         //     delay: 10,
         //     time: 1000
@@ -58,24 +58,24 @@
 				}
 			});
 			// start all the timers
-			$('.counter').each(count);  
+			$('.counter').each(count);
 			function count(options) {
 				var $this = $(this);
 				options = $.extend({}, options || {}, $this.data('countToOptions') || {});
 				$this.countTo(options);
 			}
 		});
-		
-		
-			
-		
+
+
+
+
 		//Sponsors swiper
-		
+
 		var swiper = new Swiper('.sponsors-container', {
 			pagination: '.swiper-pagination',
 			slidesPerView: 4,
 			spaceBetween: 20,
-			// autoplay: 3000,
+			autoplay: 2000,
 			paginationClickable: true,
 			nextButton: '.swiper-button-next',
 			prevButton: '.swiper-button-prev',
@@ -98,10 +98,10 @@
 				}
 			}
 		});
-		
-		
+
+
 		//testimonial swiper
-		
+
 		var swiper = new Swiper('.testimonial-container', {
 			pagination: '.swiper-pagination',
 			slidesPerView: 3,
@@ -129,10 +129,10 @@
 				}
 			}
 		});
-		
-		
+
+
 		//people say container swiper
-		
+
 		var swiper = new Swiper('.people-say-container', {
 			pagination: '.swiper-pagination',
 			slidesPerView: 1,
@@ -160,62 +160,62 @@
 				}
 			}
 		});
-		
+
 		//Pre-Loader
-	
-			
+
+
 			$("#loading").delay(2000).fadeOut(500);
 			$("#loading-center").on("click",function() {
 			$("#loading").fadeOut(500);
 			});
-		
-		
-		
-		//Scroll Top Top 
-		
+
+
+
+		//Scroll Top Top
+
 		var link,
 		toggleScrollToTopLink = function(){
-			
+
 			if($("body").scrollTop() > 0 || $("html").scrollTop() > 0){
 				link.fadeIn(400);
 			}else{
 				link.fadeOut(400);
 			}
-			
+
 		};
-		
+
 			link = $(".scroll-img");
-			
+
 			$(window).scroll(toggleScrollToTopLink);
-			
+
 			toggleScrollToTopLink();
-			
+
 			link.on("click", function(){
-				
+
 				$("body").animate({scrollTop: 0});
 				$("html").animate({scrollTop: 0});
-				
+
 			});
-	
-		
+
+
 		//Menu Fixed Top
-		
+
 			var fixed_top = $(".menu-scroll");
 
 			$(window).on('scroll', function() {
-				
-				if( $(this).scrollTop() > 100 ){	
+
+				if( $(this).scrollTop() > 100 ){
 					fixed_top.addClass("menu-fixed animated fadeInDown");
 				}
 				else{
 					fixed_top.removeClass("menu-fixed animated fadeInDown");
 				}
-				
+
 			});
-			
-	
+
+
 			//Pricing Slider
-		
+
 			$('.nstSlider').nstSlider({
 				"left_grip_selector": ".leftGrip",
 				"right_grip_selector": ".rightGrip",
@@ -226,12 +226,12 @@
 				}
 			});
 
-			
-		
-		
-		
+
+
+
+
 	//Flex Slider
-			
+
 		$(window).load(function() {
 		  // The slider being synced must be initialized first
 		  $('#carousel').flexslider({
@@ -243,7 +243,7 @@
 			itemMargin: 5,
 			asNavFor: '#slider'
 		  });
-		 
+
 		  $('#slider').flexslider({
 			animation: "slide",
 			controlNav: false,
@@ -252,11 +252,11 @@
 			sync: "#carousel"
 		  });
 		});
-		
-		
+
+
 
 	//nst Slider
-	
+
 		$('.nstSlider').nstSlider({
 			"left_grip_selector": ".leftGrip",
 			"right_grip_selector": ".rightGrip",
@@ -266,7 +266,7 @@
 				$(this).parent().find('.rightLabel').text(rightValue);
 			}
 		});
-        
+
 
 
 
@@ -277,7 +277,7 @@
         });
 
 
-        
+
 
         $(".boxed-btn").on("click", function () {
             $("body").addClass('boxed')
@@ -290,14 +290,14 @@
 
         $(".rtl-btn").on("click", function () {
             $("body").addClass('rtl');
-            var body = document.querySelector("body"); 
+            var body = document.querySelector("body");
             body.setAttribute("dir", "rtl");
         });
 
 
         $(".ltl-btn").on("click", function () {
             $("body").removeClass('rtl');
-            var body = document.querySelector("body"); 
+            var body = document.querySelector("body");
             body.setAttribute("dir", "ltl");
         });
 
@@ -305,7 +305,7 @@
 
 
         jQuery(document).ready(function(){
-	        jQuery(".bg-1").click(function(){            
+	        jQuery(".bg-1").click(function(){
 	            jQuery("body").css({"background":"url(https://www.codexcoder.com/images/auror/01.jpg) no-repeat fixed","background-size":"cover" });
 	            jQuery("body").addClass("boxed");
 	        });
@@ -332,14 +332,14 @@
 	        jQuery(".bg-7").click(function(){
 	            jQuery("body").addClass("boxed");
 	            jQuery("body").css({"background":"url(https://www.codexcoder.com/images/auror/07.jpg) no-repeat fixed","background-size":"cover"});
-	        });   
+	        });
 	        jQuery(".bg-8").click(function(){
 	            jQuery("body").addClass("boxed");
 	            jQuery("body").css({"background":"url(https://www.codexcoder.com/images/auror/08.jpg) no-repeat fixed","background-size":"cover"});
-	        });      
+	        });
 	    });
 
-	    jQuery(document).ready(function(){      
+	    jQuery(document).ready(function(){
 	        jQuery(".pt-1").click(function(){
 	            jQuery("body").addClass("boxed");
 	            jQuery("body").css({"background":"url(https://www.codexcoder.com/images/auror/pt-image/01.png) repeat fixed"});
@@ -373,11 +373,11 @@
 	            jQuery("body").css({"background":"url(https://www.codexcoder.com/images/auror/pt-image/08.png) repeat fixed"});
 	        });
 	    });
-        
 
 
-		
-	});	
+
+
+	});
 
 })(jQuery);
 
@@ -385,6 +385,6 @@
 
 
 
-	
+
 
 
