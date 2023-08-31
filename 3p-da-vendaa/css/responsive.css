@@ -1,0 +1,269 @@
+@media (max-width: 1026px){
+   .quem-sou-eu-bloco01{
+        display: none;
+    } 
+    nav{
+        height: auto ;
+    }
+    .logo-box{
+        padding-top: 0px;
+    }
+    .logo-box-but{
+        padding-bottom: 4%;
+    }
+    .logo-box-tempo{
+        width: 40%;
+    }
+    .logo-box-but{
+        width: 40%;
+    }
+    .quem-sou-eu-bloco02{
+        width: 100%;
+    }
+    .quem-sou-eu-bloco02 h1{
+        text-align: center;
+    }
+    .quem-sou-eu-bloco02 h1 br{
+        display: none;
+    }
+    .quem-sou-eu-bloco02 p br{
+        display: none;
+    }
+    .quem-sou-eu-bloco02 p {
+        padding: 5%;
+        width: 90%;
+        text-align: justify;
+    }
+    .quem-sou-eu-bloco02 h4{
+        padding: 0 5%;
+    }
+    .img-box{
+        width: 100%;
+    }
+    .img-box img{
+        width: 24%;
+        margin:0.5%;
+    }
+    .quem-sou-eu{
+        height: auto;
+    }
+    .porque-esse-treinamento-sub{
+        width: 90%;
+    }
+    .logo-box-tempo .logo-box-tempo-dif p{
+        font-size: 20px;
+    }
+}
+@media (max-width: 770px){
+    .logo-box-sub{
+        width: auto;
+    }
+    .logo-box-tempo{
+        width: 60%;
+    }
+    nav{
+        background-size: 100vh;
+    }
+    .livro-box-sub{
+        width: 80%;
+    }
+    .formulario-box-sub{
+        display: block;
+    }
+    .bloco02.linha{
+        border: 0;
+        padding-right: 0;
+    }
+    .formulario-box-sub{
+        width: 90%;
+    }
+    .bloco02{
+        padding-top: 20%;
+    }
+    .title-forms{
+        font-size: 40px !important;
+    }
+    .caixa-but{
+        height: 70px;
+    }
+    .btn.btn-danger{
+        height: 70px;
+    }
+    .rodape-sub-fim01{
+        width: 50%;
+    }
+    .rodape-sub-fim02{
+        width: 50%;
+    }
+    
+}
+@media (max-width: 542px){
+    .bloco-por-que img{
+        display: none;
+    }
+    .porque-esse-treinamento-sub{
+        width: 95%;
+    }
+    .porque-esse-treinamento-sub h1{
+        font-size: 25px;
+        padding: 2% 0;
+        text-align: center;
+    }
+    .porque-esse-treinamento-sub-blocos{
+        display: block;
+    }
+    .bloco-por-que.button{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 3% 0;
+    }
+    .bloco-por-que.bloco{
+        padding: 2% 0;
+    }
+    .bloco-por-que.button button{
+        padding: 2% 6%;
+        font-size: 18px;
+        border-radius: 5px;
+        background-color: rgb(191, 144, 0);
+        color: white;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .chamada-final h1{
+        padding: 0 2%;
+    }
+    .rodape-sub-fim01{
+        width: 60%;
+    }
+    .rodape-sub-fim02{
+        width: 40%;
+    }
+    .logo-box-sub h1{
+        font-size: 40px;
+    }
+    nav{
+        background-size: 130vh;
+    }
+    .logo-box-but{
+        width: 70%;
+    }
+    .livro-box-sub{
+        width: 95%;
+    }
+    .livro-box-sub-bloco1{
+        width: 40%;
+    }
+    .livro-box-sub-bloco2{
+        width: 60%;
+    }
+    .livro-box-sub-bloco2{
+        height: auto;
+    }
+    .bloco02 h1 a{
+        width: 100%;
+        font-size: 30px;
+        padding: 2%;
+    }
+}
+
+
+@media (max-width: 416px){
+    .logo-box-tempo{
+        width: 90%;
+    }
+    .logo-box-but{
+        width: 90%;
+        padding-top: 4%;
+    }
+    .logo-box-but button{
+        padding: 4% 8%;
+    }
+    .livro-box-sub-bloco2 h4{
+        font-size: 18px;
+    }
+    .livro-box-sub-bloco2 p{
+        font-size: 16px;
+    }
+    .livro-box-sub-bloco1{
+        width: 45%;
+    }
+    .livro-box-sub-bloco2{
+        width: 55%;
+    }
+    .bloco02 h1 a{
+        font-size: 25px;
+    }
+    .caixa-but{
+        height: 50px;
+    }
+    .img-box img{
+        width: 49%;
+    }
+    .bloco-por-que.bloco{
+        text-align: center;
+    }
+    .bloco-por-que.button a{
+        width: 80%;
+        padding: 5% 2%;
+    }
+    .bloco-por-que.button button{
+        width: 100%;
+        padding: 5% 2%;
+    }
+    .rodape-sub-fim01{
+        width: 80%;
+    }
+    .rodape-sub-fim02{
+        width: 20%;
+    }
+}
+
+@media (max-width: 362px){
+    .logo-box-sub h3 p{
+        font-size: 20px;
+    }
+    .logo-box-sub h1{
+        font-size: 36px;
+    }
+    .logo-box-tempo .logo-box-tempo-dif h3{
+        font-size: 40px;
+    }
+    .logo-box-tempo .logo-box-tempo-dif p{
+        font-size: 18px;
+    }
+    .logo-box-adc p,.logo-box-adc p.grande{
+        font-size: 18px;
+    }
+    .logo-box-but{
+        padding-bottom: 10%;
+    }
+    .logo-box-but button{
+        padding: 3% 8%;
+    }
+    nav{
+        background-size: 160vh;
+    }
+    .livro-box-sub-bloco2 p{
+        font-size: 14px;
+    }
+    .livro-box-sub-bloco1{
+        width: 51%;
+    }
+    .livro-box-sub-bloco2{
+        width: 49%;
+    }
+    .bloco02 h1 a{
+        font-size: 20px;
+    }
+    .rodape-sub-fim01{
+        width: 75%;
+        font-size: 15px;
+    }
+    .rodape-sub-fim02{
+        width: 15%;
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

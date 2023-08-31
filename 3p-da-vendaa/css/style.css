@@ -1,0 +1,447 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+html {
+  scroll-behavior: smooth;
+}
+button:focus{
+    outline: none;
+}
+body{
+    overflow-x: hidden;
+}
+nav{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagens/fundo-nav.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.logo-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+}
+.logo-box-sub{
+    width: 70%;
+}
+.logo-box-sub img{
+    height: 110px;
+}
+.logo-box-sub h3,.logo-box-sub h1{
+    text-align: center;
+    padding: 1% 0;
+    color: rgb(17, 50, 88);
+}
+.logo-box-sub h3{
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+}
+.logo-box-sub h3 p{
+    padding: 0.5% 1%;
+    background-color: rgb(17, 50, 88);
+    color: rgb(245, 243, 243);
+}
+.logo-box-sub h1{
+    font-size: 55px;
+}
+.logo-box-tempo{
+    width: 23%;
+    height: 100px;
+    display: flex;
+}
+.logo-box-tempo .logo-box-tempo-dif{
+    width: 25%;
+    text-align: center;
+}
+.logo-box-tempo .logo-box-tempo-dif h3{
+    font-size: 60px;
+    white-space: 2px;
+    color: rgb(255, 207, 61);
+    text-shadow: 1px 1px 15px rgb(0, 0, 0);
+}
+.logo-box-tempo .logo-box-tempo-dif p{
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 15px rgb(255, 255, 255);
+}
+.logo-box-adc{
+    text-align:center;
+    font-weight: 600;
+}
+.logo-box-adc p{
+    font-size: 20px;
+    padding: 2% 0;
+    color: rgb(17, 50, 88);
+}
+.logo-box-adc p.grande{
+    font-size: 30px;
+    background-color: rgb(17, 50, 88);
+    color: rgb(245, 243, 243);
+    padding: 0 2%;
+    width: 100%;
+}
+.logo-box-but{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+.logo-box-but button{
+    padding: 5% 5%;
+    background-color: rgb(168, 127, 5);
+    color: rgb(245, 243, 243);
+    font-size: 25px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 7%;
+}
+.logo-box-but button:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.livro-box{
+    width: 100%;
+    height: 316px;
+    background-color: rgb(191, 144, 0);
+    display: flex;
+    justify-content: center;
+}
+.livro-box-sub{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.livro-box-sub-bloco1{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+.livro-box-sub-bloco1 img{
+    height: 80%;
+    padding-right: 35%;
+}
+.livro-box-sub-bloco2{
+    height: 45%;
+}
+.livro-box-sub-bloco2 h4{
+    font-size: 20px;
+    padding: 2% 0;
+    color: white;
+    
+}
+.livro-box-sub-bloco2 h4 a{
+    color: rgb(17, 50, 88);
+}
+.livro-box-sub-bloco2 p{
+    font-size: 18px;
+    padding: 2% 0;
+    color: white;
+    line-height: 28px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+
+.formulario-box{
+    width: 100%;
+    height: auto;
+    background-color: rgb(17, 50, 88);
+    padding: 5% 0;
+    display: flex;
+    justify-content: center;
+}
+.formulario-box-sub{
+    width: 75%;
+    display: flex;
+}
+.title-forms{
+    font-size: 25px !important;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-bottom: 5%;
+}
+.button-bar button{
+    width: 100%;
+}
+.title-forms a{
+    background-color: rgb(191, 144, 0) !important;
+    color: white !important;
+    padding: 0 2%;
+}
+.bloco02{
+    width: 100%;
+}
+.bloco02-sub{
+    width: 90%;
+    margin-left: 5%;
+}
+.bloco02.linha{
+    border-right: solid 2px white;
+    padding-right: 2%;
+}
+.bloco02 h1{
+    font-size: 40px;
+    color: white;
+}
+.bloco02 h1 a{
+    color: rgb(191, 144, 0);
+}
+.bloco02 p{
+    padding: 2% 0;
+    font-size: 26px;
+    color: white;
+    font-weight:initial;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.bloco02 p strong{
+    font-weight: 600;
+}
+.pre-requisitos{
+    width: 100%;
+    padding-top: 9%;
+}
+.pre-requisitos p{
+    font-size: 18px;
+    color: rgb(191, 144, 0);
+    font-weight: 900;
+}
+.pre-requisitos-blocos{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+}
+.pre-requisitos-blocos i{
+    margin-right: 2%;
+    font-size: 35px;
+    color: rgb(191, 144, 0);
+    margin-top: 10px;
+}
+.pre-requisitos-blocos p{
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 100;
+}
+.pre-requisitos-blocos p strong{
+    font-weight: bold;
+}
+
+
+
+.quem-sou-eu{
+    width: 100%;
+    display: flex;
+    padding-top: 3.5%;
+    height: 160vh;
+}
+.quem-sou-eu-bloco01{
+    width: 65%;
+}
+.quem-sou-eu-bloco01 img{
+    height: 100%;
+}
+.quem-sou-eu-bloco02{
+    width: 35%;
+    padding-bottom: 5%;
+}
+.quem-sou-eu-bloco02 h1{
+    font-size: 40px;
+    color: rgb(17, 50, 88);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.quem-sou-eu-bloco02 p{
+    padding-top: 9%;
+    padding-bottom: 6%;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.quem-sou-eu-bloco02 h4{
+    font-weight: 100;
+    line-height: 35px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.img-box{
+    width: 80%;
+}
+.img-box img{
+    width: 45%;
+    float: left;
+    margin: 1% 1%;
+}
+
+
+
+
+
+.porque-esse-treinamento{
+    background-color: rgb(17, 50, 88);
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.porque-esse-treinamento-sub{
+    width: 70%;
+    height: 90%;
+    color: white;
+}
+.bloco-por-que{
+    width: 100%;
+    height: 100%;
+}
+.porque-esse-treinamento-sub h1{
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+.porque-esse-treinamento-sub h1 a{
+    color: rgb(191, 144, 0);
+}
+.porque-esse-treinamento-sub-blocos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-top: 1%;
+}
+.bloco-por-que{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2%;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.bloco-por-que.button{
+    width: 150%;
+}
+.bloco-por-que.button button{
+    padding: 5% 16%;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgb(191, 144, 0);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.bloco-por-que.button button:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.chamada-final{
+    width: 100%;
+    height: 377px;
+    padding: 5% 0;
+}
+.chamada-final h1{
+    text-align: center;
+    color: rgb(21, 59, 102);
+}
+.chama-final-botão{
+    display: flex;
+    justify-content: center;
+    padding: 2% 0;
+}
+.chama-final-botão button{
+    padding: 0.6% 1%;
+    font-size: 20px;
+    background-color: rgb(191, 144, 0);
+    border-radius: 5px;
+}
+.chama-final-botão img{
+    height: 100px;
+}
+.chama-final-botão p{
+    padding: 0.5% 1%;
+    background-color: rgb(17, 50, 88);
+    color: white;
+    font-weight: bold;
+    font-size: 130%;
+}
+
+
+.rodape{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(17, 50, 88);
+    display: flex;
+    justify-content: center;
+}
+.rodape-sub{
+    width: 80%;
+    padding-top: 3%;
+}
+.rodape-sub-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px white;
+    padding-bottom: 2%;
+}
+.rodape-sub-fim{
+    display: flex;
+    color: white;
+}
+.rodape-sub-img img{
+    height: 100px;
+}
+.rodape-sub-fim01{
+    width: 30%;
+    font-size: 18px;
+    padding: 1.5%;
+}
+.rodape-sub-fim02{
+    width: 70%;
+    font-size: 27px;
+    padding: 1.5%;
+}
+.rodape-sub-fim02 a i{
+    margin: 0 1%;
+    color: white;
+}
+
+
+
+.caixa-but{
+    background-color: white !important;
+    width: 96%;
+    height: 50px;
+    padding: 0 2%;
+    border-radius: 5px;
+    margin: 2% 0;
+    font-size: 15px;
+}
+.caixa-but:focus{
+    outline: none;
+    padding: 0 2%;
+}
+.text-forms{
+    color: white;
+}
+.btn.btn-danger{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(191, 144, 0);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn.btn-danger:hover{
+    background-color: rgb(211, 159, 2);
+    transition: 0.3s;
+}
